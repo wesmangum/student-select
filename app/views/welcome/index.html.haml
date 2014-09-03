@@ -1,0 +1,7 @@
+%h1 Welcome to StudentSelect!
+
+=button_to "Pick Someone", call_on_student_path, class: "button"
+%h2 Students:
+%ul= render @students
+
+=link_to "Add Student", new_student_path, class: "button"
